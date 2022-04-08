@@ -566,7 +566,7 @@ img {
 
 #portfolio .boxImg img:hover,
 #portfolio .boxImg img:active {
-  transition: all .5s ease-in-out;
+  transition: all .5s ease;
   transform: scale(1.2);
   padding: 10px;
   background: var(--bg-white);

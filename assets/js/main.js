@@ -1,10 +1,11 @@
+
 // On Scroll Function
 function navMenu() {
   // สร้างตัวแปร อ้างอิงๆปยัง ID
   let nabBar = document.querySelector(".navbar-sticky");
   let scrollTopButton = document.querySelector("#scrollUp");
 
-  window.onscroll = function(){
+  window.onscroll = function () {
     let scroll = document.documentElement.scrollTop;
     // ถ้ามีการ scroll ลงไป มากกว่าหรือเท่ากับ 120
     if (scroll >= 120) {
@@ -34,12 +35,11 @@ function navMenu() {
 
 navMenu();
 
-
 // Side Navigation Bar Close While We click On Navigation Links
-let navBar = document.querySelectorAll('.nav-link');
-let navCollapse = document.querySelector('.navbar-collapse.collapse');
-navBar.forEach(function(a){
-    a.addEventListener("click", function(){
-        navCollapse.classList.remove("show");
-    })
-}) 
+let navBar = document.querySelectorAll(".nav-link");
+let navCollapse = document.querySelector(".navbar-collapse.collapse");
+navBar.forEach(function (a) {
+  a.addEventListener("click", function () {
+    navCollapse.classList.remove("show");
+  });
+});
