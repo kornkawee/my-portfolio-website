@@ -57,7 +57,7 @@
     } 
     .navbar .navbar-nav .nav-link:hover,
     .navbar .navbar-nav .nav-link.active{
-        color: #ff007a;
+        color: var(--text-primary);
     } 
 
 

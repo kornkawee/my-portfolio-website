@@ -141,7 +141,7 @@ a {
 
 a:hover,
 a:focus {
-  color: var(--text-light-pink);
+  color: var(--text-primary);
 }
 
 a,
