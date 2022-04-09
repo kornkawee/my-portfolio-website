@@ -505,6 +505,12 @@ img {
   border-radius: 5px;
   border: 1px solid var(--primary-color);
 }
+.skills-icon .boxImg:hover {
+cursor: pointer;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2),
+inset 10px 10px 10px rgba(0, 0, 0, 0.1),
+-10px -10px 10px rgba(253, 252, 252, 1);
+}
 
 #about .aboutme .aboutDetail .skills-icon .boxImg h3 {
   font-size: 1.563rem;
