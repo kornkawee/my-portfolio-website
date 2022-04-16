@@ -605,9 +605,9 @@ inset 10px 10px 10px rgba(0, 0, 0, 0.1),
 /*  ================================================
 :: 8.0 Contact CSS
     ================================================ */
-#contact {
+/* #contact {
   padding: 100px;
-}
+} */
 
 
 .contact .titlecontact span {
@@ -644,14 +644,17 @@ inset 10px 10px 10px rgba(0, 0, 0, 0.1),
 /*  ================================================
 :: 8.0 Footer CSS
     ================================================ */
-
+/* footer, */
 .copyright {
   background: var(--primary-color);
 }
 
-.copyright p,
-.copyright a {
+.copyright i,
+.copyright span {
   color: var(--text-white);
+  margin: 50px 0;
+  font-size: 1.45rem;
+  font-weight: 500;
 }
 
 
@@ -672,7 +675,8 @@ inset 10px 10px 10px rgba(0, 0, 0, 0.1),
   display: none;
   -webkit-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
-  background: var(--primary-color)
+  background: var(--primary-color);
+  border: 2px solid var(--bg-white);
 }
 
 #scrollUp .fas {
