@@ -327,6 +327,12 @@ img {
     color: var(--text-primary);
 }
 
+.home-link-social a.resume{
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
 .home-link-social .fab:hover {
   transform: translateY(-0.313rem);
   -webkit-transition: all 0.3s ease-out;
